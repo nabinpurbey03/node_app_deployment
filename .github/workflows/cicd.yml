@@ -30,3 +30,4 @@ jobs:
         - name: Deploy to production
             if: success()
             run: echo "Deploying to production..."
+            run: echo "COMPLETED"
